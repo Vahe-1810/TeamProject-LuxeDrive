@@ -1,0 +1,37 @@
+.whatwedo-container {
+    background-color: white;
+    max-width: 100%;
+    height: 300px;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+}
+
+.whatwedo_item_text {
+  align-items: center;
+  justify-content: center;
+  margin: 20px ; 
+  height: 50%;
+  width: auto;
+  
+}
+
+
+.whatwedo-container h2, .whatwedo-container p{
+   
+  font-family: 'Roboto', sans-serif, 'arial';
+  font-weight: 400;
+  font-size: 20px;
+  color: #020222;
+  line-height: 1.5;
+}
+
+.whatwedo_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
